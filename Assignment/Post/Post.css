@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+*{font-family: 'Ranchers', 'Sarabun';
+    font-size: 30px;
+    color: #7987A1;
+}
+body{
+    background-color: #E4E9EC;
+    
+}
+div{
+    text-align: center;
+    margin-top: 2%;
+}
+#topic1{
+
+}
+#comment1{
+
+}
+#comment2{
+
+}
+#text1{
+
+}

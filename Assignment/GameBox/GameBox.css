@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Ranchers&display=swap');
+*{font-family: "Chango","Ranchers";
+    font-size: 30px;
+    background-color: #C9D3DF;
+}
+fieldset{    
+    border: 5px solid black;
+}
+#game-container {
+	margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#game-layer {
+    position: relative;
+    width: 550px;
+    height: 550px;
+    border-radius: 5%;
+    border: 5px solid black;
+}
+
+.square {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 3px solid black;
+}
+
+.red{
+    background-color: red; 
+}
+.blue{
+    background-color: blue; 
+}
+
+.green{
+    background-color: green; 
+}
+
+#start{
+
+}
+#clock{
+
+}
+#numbox{
+
+}
+#game-layer{
+
+}
+#color{
+
+}
+#box{
+
+}

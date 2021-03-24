@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Ranchers&display=swap');
+*{font-family: 'Oswald', 'Sarabun';
+    font-size: 30px;
+    padding-left: auto;
+    color: #7987A1;
+}
+body{
+    background-color: #E4E9EC;
+    
+}
+#myLogin{
+
+}
+#errorlogin{
+    
+}

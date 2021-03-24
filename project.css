@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Roboto+Condensed&display=swap');
+*{font-family: "Roboto+Condensed","Kanit","Sarabun";
+    font-size: 24px;
+    color: #405E5C;
+}
+body{
+    background-color: #B6CFCC;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-gap: 10px;
+}
+#header{
+    grid-column: 1 / span 2;
+}
+#PSD{
+    grid-column: 1 / span 1;
+}
+#AI{
+    grid-column: 2 / span 1;
+}
+#HTML_CSS_JS{
+    grid-column: 1 / span 2;
+}
+#myProfile{
+    grid-column: 1 / span 2;
+}
+#contactMe{
+    grid-column: 1 / span 2;
+}
+.letterHeader{
+    font-size: 100px;
+    color: #405E5C;
+    text-align: center;
+    text-shadow: 7px 5px white;
+}
+.fontTopic{
+    font-size: 40px;
+    text-align: center;
+    margin: 2rem;
+}
+.fontSubTopic{
+    font-size: 30px;
+    text-align: center;
+    margin: 2rem;
+}
+.fontContent{
+    margin-left: 5rem;
+    text-align: left;
+}
+.poster{
+    width: 70%;
+    margin-left: 3rem;
+}
+.animalsCharacter{
+    width: 80%;
+    margin: 2rem;
+}
+.fontFooter{
+    text-align: center;
+}
+a:link{
+    color: #405E5C;
+}
+a:visited{
+    color: blue;
+}
+a:hover{
+    color: black;
+}
+
+@media only screen and (max-width: 767px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+    }
+    #header{
+        grid-column: 1 / span 1;
+    }
+    #PSD{
+        grid-column: 1 / span 1;
+    }
+    #AI{
+        grid-column: 1 / span 1;
+    }
+    #HTML_CSS_JS{
+        grid-column: 1 / span 1;
+    }
+    #myProfile{
+        grid-column: 1 / span 1;
+    }
+    #contactMe{
+        grid-column: 1 / span 1;
+    }
+}

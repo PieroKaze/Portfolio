@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Roboto+Condensed&display=swap');
+*{font-family: "Roboto+Condensed","Kanit","Sarabun";
+    font-size: 24px;
+    color: #7987A1;        
+}
+body{    
+    background-color: #E4E9EC;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 30% auto auto;
+    grid-gap: 10px;
+}
+#header{
+    grid-column: 1 / span 3;
+}
+#myPicture{
+    grid-column: 1 / span 1;    
+}
+#myInfo{
+    grid-column: 2 / span 1;
+}
+#aboutMe{
+    grid-column: 3 / span 1;
+}
+#myFirstSkills{
+    grid-column: 1 / span 1;
+    background-color: #C9D3DF;
+    flex-basis: 33.33%;
+}
+#mySecondSkills{
+    grid-column: 2 / span 1;
+    background-color: #C9D3DF;
+    flex-basis: 33.33%;
+}
+#myThirdSkills{
+    grid-column: 3 / span 1;
+    background-color: #C9D3DF;
+    flex-basis: 33.33%;
+}
+#myProject{
+    grid-column: 1 / span 3;
+}
+#contactMe{
+    grid-column: 1 / span 3;
+}
+.headerPic{
+    width: 100%;    
+}
+.headerContainer{
+    position: relative;
+}
+.letterHeader{    
+    position: absolute;
+    right: 3%;
+    top: 3%;
+    bottom: auto;
+    font-size: 100px;
+    color:#7987A1;
+    text-align: right;
+    text-shadow: 7px 5px white;
+}
+.PicMa{
+    width: 80%;
+    border-radius: 5%;
+    margin-left: 1rem;
+}
+.textInfo{
+    justify-content: center;
+    align-items: center;
+}
+fieldset{
+    border: 5px solid #7987A1;
+    border-radius: 5%;
+    width: 80%;
+}
+legend{
+    font-size: 40px;
+}
+.fieldsetColumn3{
+    border: 5px solid #7987A1;
+    border-radius: 5%;
+    width: 90%;
+    margin-right: 1rem;
+}
+.fontTopic{
+    font-size: 40px;
+    text-align: center;
+}
+.logoWord{
+    width: 25%;
+    align-items: center;
+    margin: 2rem;
+}
+.logoPPT{
+    width: 25%;
+    align-items: center;
+}
+.logoPSD{
+    width: 20%;
+    align-items: center;
+    margin: 2rem;
+    margin-left: 4rem;
+}
+.logoAI{
+    width: 20%;
+    align-items: center;
+}
+.logoWeb{
+    width: 50%;
+    align-items: center;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.fontSubTopic{
+    font-size: 30px;
+    text-align: center;
+}
+.fontContent{
+    margin-left: 3rem;
+}
+.fontFooter{
+    text-align: center;
+}
+a:link{
+    color: #7987A1;
+}
+a:visited{
+    color: blue;
+}
+a:hover{
+    color: black;
+}
+
+@media only screen and (max-width: 767px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: 50% auto;
+        grid-gap: 10px;
+    }
+    .grid-container > div{        
+        font-size: 24px;    
+    }
+    #header{
+        grid-column: 1 / span 2;
+    }
+    #myPicture{
+        grid-column: 1 / span 2;    
+    }
+    #myInfo{
+        grid-column: 1 / span 1;
+    }
+    #aboutMe{
+        grid-column: 2 / span 1;
+    }
+    #myFirstSkills{
+        grid-column: 1 / span 2;
+        background-color: #C9D3DF;
+        flex-basis: 33.33%;
+    }
+    #mySecondSkills{
+        grid-column: 1 / span 2;
+        background-color: #C9D3DF;
+        flex-basis: 33.33%;
+    }
+    #myThirdSkills{
+        grid-column: 1 / span 2;
+        background-color: #C9D3DF;
+        flex-basis: 33.33%;
+    }
+    #myProject{
+        grid-column: 1 / span 2;
+    }
+    #contactMe{
+        grid-column: 1 / span 2;
+    }
+    .letterHeader{    
+        position: absolute;
+        right: 3%;
+        top: 2%;
+        bottom: auto;
+        font-size: 60px;
+        color:#7987A1;
+        text-align: right;
+        text-shadow: 7px 5px white;
+    }
+
+    @media only screen and (max-width: 500px){
+        .grid-container{
+            display: grid;
+            grid-template-columns: auto;
+            grid-gap: 10px;
+        }
+        .grid-container > div{        
+            font-size: 24px;    
+        }
+        #header{
+            grid-column: 1 / span 1;
+        }
+        #myPicture{
+            grid-column: 1 / span 1;    
+        }
+        #myInfo{
+            grid-column: 1 / span 1;
+        }
+        #aboutMe{
+            grid-column: 1 / span 1;
+        }
+        #myFirstSkills{
+            grid-column: 1 / span 1;
+            background-color: #C9D3DF;
+            flex-basis: 33.33%;
+        }
+        #mySecondSkills{
+            grid-column: 1 / span 1;
+            background-color: #C9D3DF;
+            flex-basis: 33.33%;
+        }
+        #myThirdSkills{
+            grid-column: 1 / span 1;
+            background-color: #C9D3DF;
+            flex-basis: 33.33%;
+        }
+        #myProject{
+            grid-column: 1 / span 1;
+        }
+        #contactMe{
+            grid-column: 1 / span 1;
+        }
+        .letterHeader{    
+            position: absolute;
+            right: 3%;
+            top: 0%;
+            bottom: auto;
+            font-size: 40px;
+            color:#7987A1;
+            text-align: right;
+            text-shadow: 7px 5px white;
+        }
+    }
+}
